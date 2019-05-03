@@ -1,0 +1,27 @@
+/* package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+    public static void main (String[] args) throws java.lang.Exception
+    {
+    double fabrica, distribuidora, impostos, custos;
+        
+        Scanner in = new Scanner(System.in);
+        
+        System.out.println("Informe o custo de fabrica: ");
+        
+
+        fabrica = in.nextInt();
+        distribuidora = fabrica*0.12;
+        impostos = fabrica*0.05;
+        
+        custos = fabrica + distribuidora + impostos;
+        
+        System.out.println("O custo d carro e "+custos);    }
+}
+
