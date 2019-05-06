@@ -16,13 +16,13 @@ public class Cidades implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
 	@Id
-	@SequenceGenerator(name = "SQ_BR_NU", sequenceName = "SQ_BR_NU", allocationSize = 1)
-	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SQ_BR_NU")
+	@SequenceGenerator(name = "SQ_CD_NU", sequenceName = "SQ_CD_NU", allocationSize = 1)
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SQ_CD_NU")
 
-	@Column(name = "BR_NU")
+	@Column(name = "CD_NU")
 	private Long id;
 	
-	@Column(name = "BR_NOME")
+	@Column(name = "CD_NOME")
 	private String nome;
 	
 	@ManyToOne

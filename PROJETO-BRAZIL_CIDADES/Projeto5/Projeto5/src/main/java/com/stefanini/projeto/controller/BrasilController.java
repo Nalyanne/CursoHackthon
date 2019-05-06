@@ -25,6 +25,7 @@ public class BrasilController {
 	@RequestMapping(method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
 	public @ResponseBody List<Brasil> findAll() throws TreinaException {
 		return service.findAll();
+		
 	}	
 	
 }
